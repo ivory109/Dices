@@ -13,6 +13,9 @@
 		CE8E9F6D266A6F3C008837B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8E9F6B266A6F3C008837B3 /* Main.storyboard */; };
 		CE8E9F6F266A6F3D008837B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8E9F6E266A6F3D008837B3 /* Assets.xcassets */; };
 		CE8E9F72266A6F3D008837B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8E9F70266A6F3D008837B3 /* LaunchScreen.storyboard */; };
+		CEB4F3A7266B725700740E44 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4F3A6266B725700740E44 /* Dice.swift */; };
+		CEB4F3AA266B91A300740E44 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB4F3A9266B91A300740E44 /* backgroundMusic.mp3 */; };
+		CEB4F3AD266B927300740E44 /* shakeDicesMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB4F3AC266B927300740E44 /* shakeDicesMusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CE8E9F6E266A6F3D008837B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8E9F71266A6F3D008837B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8E9F73266A6F3D008837B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB4F3A6266B725700740E44 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		CEB4F3A9266B91A300740E44 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		CEB4F3AC266B927300740E44 /* shakeDicesMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shakeDicesMusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		CE8E9F64266A6F3C008837B3 /* Dices */ = {
 			isa = PBXGroup;
 			children = (
+				CEB4F3A9266B91A300740E44 /* backgroundMusic.mp3 */,
+				CEB4F3AC266B927300740E44 /* shakeDicesMusic.mp3 */,
 				CE8E9F65266A6F3C008837B3 /* AppDelegate.swift */,
 				CE8E9F67266A6F3C008837B3 /* SceneDelegate.swift */,
 				CE8E9F69266A6F3C008837B3 /* ViewController.swift */,
+				CEB4F3A6266B725700740E44 /* Dice.swift */,
 				CE8E9F6B266A6F3C008837B3 /* Main.storyboard */,
 				CE8E9F6E266A6F3D008837B3 /* Assets.xcassets */,
 				CE8E9F70266A6F3D008837B3 /* LaunchScreen.storyboard */,
@@ -124,6 +133,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB4F3AA266B91A300740E44 /* backgroundMusic.mp3 in Resources */,
+				CEB4F3AD266B927300740E44 /* shakeDicesMusic.mp3 in Resources */,
 				CE8E9F72266A6F3D008837B3 /* LaunchScreen.storyboard in Resources */,
 				CE8E9F6F266A6F3D008837B3 /* Assets.xcassets in Resources */,
 				CE8E9F6D266A6F3C008837B3 /* Main.storyboard in Resources */,
@@ -139,6 +150,7 @@
 			files = (
 				CE8E9F6A266A6F3C008837B3 /* ViewController.swift in Sources */,
 				CE8E9F66266A6F3C008837B3 /* AppDelegate.swift in Sources */,
+				CEB4F3A7266B725700740E44 /* Dice.swift in Sources */,
 				CE8E9F68266A6F3C008837B3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
